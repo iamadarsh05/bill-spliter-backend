@@ -30,7 +30,7 @@ mongoose
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
-  .catch((error) => handleError(error));
+  .catch((error) => console.log(error));
 let db = mongoose.connection;
 
 // Bind the connection to an error event to get notification of connection
