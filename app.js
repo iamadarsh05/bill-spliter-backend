@@ -10,7 +10,7 @@ const app = express();
 app.use(express.json());
 app.use(
   cors({
-    origin: "http://bill-spliter.netlify.app",
+    origin: "http://bill-spliter-20.netlify.app",
   }),
 );
 app.use(usersRouter);
